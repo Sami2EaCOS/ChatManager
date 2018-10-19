@@ -1,0 +1,31 @@
+name: ChatManager
+main: fr.smourad.chatmanager.ChatManager
+version: 3.0
+author: smourad
+description: Un plugin random
+
+commands:
+  nick:
+    description: Command to rename someone
+    usage: /<command> [nickname] [username]
+    permission: chatmanager.nick
+  roll:
+    description: Command to roll a dice
+    usage: /<command> [number]
+  stats:
+    description: Command to change stats
+    usage: /<command> [username] [type] [number]
+    permission: chatmanager.stats
+  race:
+    description: Command to change race
+    usage: /<command> [username] [race]
+    permission: chatmanager.race
+  desc:
+    description: Command to set desc
+    usage: /<command> [description]
+  metier:
+    description: Command for jobs
+    usage: /<command> [username] [jobs] [level]
+  profil:
+    description: Command to see a player profile
+    usage: /<command> [username]
